@@ -85,7 +85,7 @@ def all_holidays_with_bbq(holiday_hash)
 # binding.pry
 
       if values = "BBQ" 
-        bbq_array << season
+        bbq_array << holiday_name
       end 
    
   end
