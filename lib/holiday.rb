@@ -79,12 +79,12 @@ end
 
 
 def all_holidays_with_bbq(holiday_hash)
-  
+  bbq_array = []
   bbq_hash = holiday_hash.sort {|x, y| x <=> y }
     bbq_hash.each do |key, value|
 # binding.pry
       if value = "BBQ" 
-        key
+        bbq_array << key
       end 
     end
   
