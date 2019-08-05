@@ -82,7 +82,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   bbq_array = []
   holiday_hash.each do |season, holiday_name|
-    holiday_name.keys.values.each do |holiday, value|
+    holiday_name.each do |holiday, value|
 binding.pry
 
       if value == "BBQ" 
