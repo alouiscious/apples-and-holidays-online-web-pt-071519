@@ -88,6 +88,7 @@ binding.pry
       if values == "BBQ" 
         bbq_array << holiday_name
       end 
+    end
    
   end
   
