@@ -88,6 +88,7 @@ binding.pry
         bbq_array << key
       end 
     end
+  end
   
   bbq_array
     
