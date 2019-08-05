@@ -59,7 +59,7 @@ def all_supplies_in_holidays(holiday_hash)
     key_hash.each do |key, supply|
 # binding.pry
       
-      puts "  #{key.to_s.split("_").map{|word|}.capitalize.join(" ")}: #{supply.join(", ")}"
+      puts "  #{key.to_s.split("_").map{|word|.capitalize}.join(" ")}: #{supply.join(", ")}"
 
     end
   end
@@ -81,11 +81,11 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   bbq_array = []
-  holiday_hash.values.each do |season, values|
+  holiday_hash.each do |season, values|
 binding.pry
 
-      if season = "BBQ" 
-        bbq_array << key
+      if values = "BBQ" 
+        bbq_array << season
       end 
    
   end
