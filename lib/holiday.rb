@@ -85,7 +85,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_name.each do |holiday, value| if value == "bbq"
 binding.pry
      
-        bbq_array << holiday
+        bbq_array << holiday.map
       end 
     end
    
