@@ -87,7 +87,7 @@ def all_holidays_with_bbq(holiday_hash)
         bbq_array << key
       end 
     end
-  
+  bbq_array
     
 #     result = plants.sort{|x, y| x[1] <=> y[1]}
 # result.each do |key, value|
