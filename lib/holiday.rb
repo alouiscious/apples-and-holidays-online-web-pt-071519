@@ -80,7 +80,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   bbq_array = []
-  bbq_hash = holiday_hash.values {|values }
+  bbq_hash = holiday_hash.values {|keys, values|}
     bbq_hash.each do |key, value|
 # binding.pry
       if value = "BBQ" 
