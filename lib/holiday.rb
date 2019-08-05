@@ -52,28 +52,28 @@ end
 
 
 
-# def all_supplies_in_holidays(holiday_hash)
+def all_supplies_in_holidays(holiday_hash)
 
-#   holiday_hash.each do |key_season, key_hash|
-#     puts key_season.to_s.capitalize + ":"
-#     key_hash.each do |key, supply|
-#       puts "  #{key.to_s.capitalize}: #{supply.to_a}"
+  holiday_hash.each do |key_season, key_hash|
+    puts key_season.to_s.capitalize + ":"
+    key_hash.each do |key, supply|
+      puts "  #{key.to_s.capitalize}: #{supply.to_a}"
 
-#     end
-#   end
-# # binding.pry
-#   # puts key_holiday.capitalize + ":"
+    end
+  end
+# binding.pry
+  # puts key_holiday.capitalize + ":"
 
   
 
-#   # iterate through holiday_hash and print items such that your readout resembles: puts season + ": " \n + holiday_name + ": "(supply)  # Winter:
-#   #   Christmas: Lights, Wreath
-#   #   New Years: Party Hats
-#   # Summer:
-#   #   Fourth Of July: Fireworks, BBQ
-#   # etc.
+  # iterate through holiday_hash and print items such that your readout resembles: puts season + ": " \n + holiday_name + ": "(supply)  # Winter:
+  #   Christmas: Lights, Wreath
+  #   New Years: Party Hats
+  # Summer:
+  #   Fourth Of July: Fireworks, BBQ
+  # etc.
 
-# end
+end
 
 
 
